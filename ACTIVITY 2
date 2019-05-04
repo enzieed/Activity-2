@@ -1,0 +1,57 @@
+#include <iostream>
+using namespace std; 
+int main ()
+{
+	int m, d, y;
+	
+	cout << "Enter the month: "; 
+	cin >> m;
+	cout << "Enter the day: "; 
+	cin >> d;
+	cout <<"Enter the year: "; 
+	cin >> y;
+	
+	switch(month)
+	{
+		case 1:
+			cout << "Jan "<< d << ", " << y;
+			break;
+		case 2:
+			cout << "Feb "<< d << ", " << y;
+			break;
+		case 3:
+			cout << "Mar "<< d << ", " << y;
+			break;
+		case 4:
+			cout << "April"<< d << ", " << y;
+			break;
+		case 5:
+			cout << "May "<< d << ", " << y;
+			break;
+		case 6:
+			cout << "June "<< d << ", " << y
+			break; 
+		case 7:
+			cout << "Jul"<< d << ", " << y;
+			break;
+		case 8:
+			cout << "Aug"<< d << ", " << y;
+			break;
+		case 9:
+			cout << "Sept "<< d << ", " << y;
+			break;
+		case 10:
+			cout << "Oct"<< d << ", " << y;
+			break;
+		case 11:
+			cout << "Nov"<< d << ", " << y;
+			break;
+		case 12:
+			cout << "Dec "<< d << ", " << y;
+			break;	
+		default:
+			cout << "invalid date!";
+			break;																																	
+	}
+	return 0;
+}
